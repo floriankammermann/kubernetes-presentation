@@ -1,6 +1,7 @@
 # Kubernetes Presentation
 
-A presentation about architecture, setup, usage of https://kubernetes.io/
+A presentation about architecture, setup, usage of https://kubernetes.io/  
+The slides are best viewed with https://www.libreoffice.org/
 
 ## Example
 
