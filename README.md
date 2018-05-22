@@ -42,4 +42,4 @@ A presentation about architecture, setup, usage of https://kubernetes.io/
 * [custom controller](https://github.com/kubernetes/sample-controller)
 
 ### Community
-* [Working Groups](https://github.com/kubernetes/community/blob/master/sig-list.md)
+* [Special Interest Groups](https://github.com/kubernetes/community/blob/master/sig-list.md)
