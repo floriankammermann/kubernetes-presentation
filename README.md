@@ -23,6 +23,7 @@ A presentation about architecture, setup, usage of https://kubernetes.io/
 * [Cluster Networking](https://kubernetes.io/docs/concepts/cluster-administration/networking/#how-to-achieve-this)
 * [Operating a Kubernetes network](https://jvns.ca/blog/2017/10/10/operating-a-kubernetes-network/)
 * [Understanding kubernetes networking: services](https://medium.com/google-cloud/understanding-kubernetes-networking-services-f0cb48e4cc82)
+* [Strategies for kube-proxy implementation](https://www.youtube.com/watch?v=4-pawkiazEg)
 * [Pods](https://kubernetes.io/docs/concepts/workloads/pods/pod/)
 * [Container Storage Interface (CSI)](https://kubernetes.io/blog/2018/01/introducing-container-storage-interface/)
 
