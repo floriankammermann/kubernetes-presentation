@@ -37,6 +37,7 @@ A presentation about architecture, setup, usage of https://kubernetes.io/
 * [nginx ingress controller](https://github.com/kubernetes/ingress-nginx)
 * [kubectl cheatsheet](https://kubernetes.io/docs/reference/kubectl/cheatsheet/)
 * [kubernetes api reference](https://v1-9.docs.kubernetes.io/docs/reference/generated/kubernetes-api/v1.9/)
+* [custom controller](https://github.com/kubernetes/sample-controller)
 
 ### Community
 * [Working Groups](https://github.com/kubernetes/community/blob/master/sig-list.md)
