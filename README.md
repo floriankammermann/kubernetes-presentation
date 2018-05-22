@@ -2,6 +2,17 @@
 
 A presentation about architecture, setup, usage of https://kubernetes.io/
 
+## Example
+
+1. Build the dockerimage [example/dockerimage](example/dockerimage)
+1. Upload docker image to your favourite registry (here I used [quay.io](https://quay.io/))
+1. Refer the image in the [deployment config](example/kube-config/kube-presentation-deployment.yaml#L15)
+1. Create the namespace `kubectl create namespace kubepresentation`
+1. Apply the deployment `kubectl apply -f example/kube-config/kube-presentation-deployment.yaml`
+1. Apply the service `kubectl apply -f example/kube-config/kube-presentation-service.yaml`
+1. Apply the ingress `kubectl apply -f example/kube-config/kube-presentation-ingress.yaml`
+1. Check state with `kubectl get all -n kubepresentation` and `kubectl get ingress -n kubepresentation`
+
 ## Links
 
 ### Architecture
