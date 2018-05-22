@@ -1,0 +1,14 @@
+apiVersion: extensions/v1beta1
+kind: Ingress
+metadata:
+  name: kube-presentation-ingress
+  namespace: kubepresentation
+spec:
+  rules:
+  - host: kube-presentation.caas-poc-3.swisslab.io
+    http:
+      paths:
+      - path: /
+        backend:
+          serviceName: kube-presentation-service
+          servicePort: 80

@@ -1,0 +1,18 @@
+apiVersion: extensions/v1beta1
+kind: Deployment
+metadata:
+  name: kube-presentation
+  namespace: kubepresentation
+spec:
+  replicas: 1
+  template:
+    metadata:
+      labels:
+        app: kube-presentation
+    spec:
+      containers:
+      - name: kube-presentation
+        image: quay.io/floriankammermann/kube-presentation
+        imagePullPolicy: Always
+        ports:
+        - containerPort: 80
