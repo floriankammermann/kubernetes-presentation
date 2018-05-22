@@ -30,6 +30,7 @@ A presentation about architecture, setup, usage of https://kubernetes.io/
 ### Setup
 * [Kubernetes the Hardway](https://github.com/kelseyhightower/kubernetes-the-hard-way)
 * [Encrypting Secret Data at Rest](https://kubernetes.io/docs/tasks/administer-cluster/encrypt-data/)
+* [Policy based networking](https://docs.projectcalico.org/v3.1/getting-started/kubernetes/installation/flannel)
 
 ### Usage 
 * [Services](https://kubernetes.io/docs/concepts/services-networking/service/)
